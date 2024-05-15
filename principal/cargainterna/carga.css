@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(131, 194, 248);
+  }
+  
+  .loader {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .loader-crocodile {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: url('/principal/cargainterna/cocodriloo.png') center center no-repeat;
+    background-size: contain;
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
